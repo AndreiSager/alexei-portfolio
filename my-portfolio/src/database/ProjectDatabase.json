@@ -10,7 +10,7 @@
         "id" : 2,
         "itemType" : "Project",
         "altMessage" : "Website",
-        "title" : "Chill",
+        "title" : "Chill Coffee",
         "imgURl" : "coffee-beans.jpg",
         "itemDate" : "2021-2024"
     },
@@ -37,7 +37,7 @@
     },
     {
         "id" : 6,
-        "itemType" : "Recipe",
+        "itemType" : "",
         "altMessage" : "Glowstone Peach",
         "title" : "Happy",
         "imgURl" : "glowstone-peach.jpg"
