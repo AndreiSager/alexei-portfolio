@@ -11,7 +11,8 @@
         "itemType" : "Project",
         "altMessage" : "Website",
         "title" : "Chill",
-        "imgURl" : "coffee-beans.jpg"
+        "imgURl" : "coffee-beans.jpg",
+        "itemDate" : "2021-2024"
     },
     {
         "id" : 3,
