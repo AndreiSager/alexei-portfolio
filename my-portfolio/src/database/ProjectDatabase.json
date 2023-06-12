@@ -1,21 +1,37 @@
 [
     {
         "id" : 1,
-        "altMessage" : "Coffee",
         "itemType" : "Event",
-        "title" : "Relaxing with coworkers",
-        "imgURl" : "url(src/assets/coffee-beans.jpg)"
+        "altMessage" : "Coffee",
+        "title" : "Relaxing with coworkers during break",
+        "imgURl" : "coffee.jpg"
     },
     {
         "id" : 2,
-        "imgURl" : "url(src/assets/coffee-beans.jpg)"
+        "itemType" : "Project",
+        "altMessage" : "Coffee",
+        "title" : "Relaxing with coworkers during break",
+        "imgURl" : "coffee-beans.jpg"
     },
     {
         "id" : 3,
-        "imgURl" : "require('/src/assets/coffee-beans.jpg')"
+        "itemType" : "Visit",
+        "altMessage" : "Coffee",
+        "title" : "Relaxing with coworkers during break",
+        "imgURl" : "url(src/assets/coffee-beans.jpg)"
     },
     {
         "id" : 4,
-        "imgURl" : "/src/coffee-beans.jpg"
+        "itemType" : "Work Experience",
+        "altMessage" : "Coffee",
+        "title" : "Relaxing with coworkers during break",
+        "imgURl" : "url(src/assets/coffee-beans.jpg)"
+    },
+    {
+        "id" : 4,
+        "itemType" : "Work Experience",
+        "altMessage" : "Coffee",
+        "title" : "Relaxing with coworkers during break",
+        "imgURl" : "url(src/assets/coffee-beans.jpg)"
     }
 ]
