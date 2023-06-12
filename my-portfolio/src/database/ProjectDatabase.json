@@ -1,18 +1,21 @@
 [
     {
         "id" : 1,
-        "imgURl" : "url(../assets/coffee-beans.jpg)"
+        "altMessage" : "Coffee",
+        "itemType" : "Event",
+        "title" : "Relaxing with coworkers",
+        "imgURl" : "url(src/assets/coffee-beans.jpg)"
     },
     {
         "id" : 2,
-        "imgURl" : "url(/assets/coffee-beans.jpg)"
+        "imgURl" : "url(src/assets/coffee-beans.jpg)"
     },
     {
         "id" : 3,
-        "imgURl" : "require('./assets/coffee-beans.jpg')"
+        "imgURl" : "require('/src/assets/coffee-beans.jpg')"
     },
     {
         "id" : 4,
-        "imgURl" : "/coffee-beans.jpg"
+        "imgURl" : "/src/coffee-beans.jpg"
     }
 ]
