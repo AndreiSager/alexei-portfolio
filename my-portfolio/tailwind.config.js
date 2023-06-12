@@ -9,14 +9,17 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'neutralColor1': '#000000',
-      'neutralColor2': '#C9C9C9',
-      'primaryColor1': '#FFFFFF',
-      'primaryColor2': '#FFE5DF',
-      'secondaryColor1': '#AE6E60',
-      'accentColor1': '#7F5539',
+      transparent: 'transparent',
+      'neutral-color-1': '#000000',
+      'neutral-color-2': '#C9C9C9',
+      'primary-color-1': '#FFFFFF',
+      'primary-color-2': '#FFE5DF',
+      'secondary-color-1': '#AE6E60',
+      'accent-color-1': '#7F5539',
     },
-
+    backgroundImage: {
+      'home-texture': "url('./assets/coffee.jpg')",
+    }
   },
   plugins: [],
 }
