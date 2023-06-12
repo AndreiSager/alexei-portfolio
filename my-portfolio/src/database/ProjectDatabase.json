@@ -1,0 +1,18 @@
+[
+    {
+        "id" : 1,
+        "imgURl" : "url(../assets/coffee-beans.jpg)"
+    },
+    {
+        "id" : 2,
+        "imgURl" : "url(/assets/coffee-beans.jpg)"
+    },
+    {
+        "id" : 3,
+        "imgURl" : "require('./assets/coffee-beans.jpg')"
+    },
+    {
+        "id" : 4,
+        "imgURl" : "/coffee-beans.jpg"
+    }
+]

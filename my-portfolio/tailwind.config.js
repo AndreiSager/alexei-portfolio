@@ -18,7 +18,7 @@ export default {
       'accent-color-1': '#7F5539',
     },
     backgroundImage: {
-      'home-texture': "url('./assets/coffee.jpg')",
+      'home-texture': "url('/images/coffee.jpg')",
     }
   },
   plugins: [],

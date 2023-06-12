@@ -11,7 +11,7 @@ export function Navbar() {
                     <li className='flex justify-center items-center'><a href=""><BsInstagram size={iconSize}/></a></li>
                     <li className='flex justify-center items-center'><a href=""><BsFacebook size={iconSize}/></a></li>
                 </ul>
-                <h1 className='text-5xl font-black  bg-clip-text wk-bg-clip text-transparent bg-cover bg-home-texture'>Alexei</h1>
+                <h1 className='text-5xl font-black  bg-clip-text wk-bg-clip text-transparent bg-cover bg-home-texture'>ALEXEI</h1>
                 <ul className='hidden md:flex md:flex-row gap-4 justify-center text-neutral-color-1'>
                     <li className='flex justify-center items-center'><a href="">About</a></li>
                     <li className='flex justify-center items-center'><a href=""><BsInstagram size={iconSize}/></a></li>
