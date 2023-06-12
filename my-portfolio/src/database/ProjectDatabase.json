@@ -18,21 +18,21 @@
         "itemType" : "Visit",
         "altMessage" : "Country",
         "title" : "Mad",
-        "imgURl" : "url(src/assets/coffee-beans.jpg)"
+        "imgURl" : ""
     },
     {
         "id" : 4,
         "itemType" : "Work Experience",
         "altMessage" : "Company",
         "title" : "Bad",
-        "imgURl" : "url(src/assets/coffee-beans.jpg)"
+        "imgURl" : ""
     },
     {
         "id" : 5,
         "itemType" : "Chillings",
         "altMessage" : "Bing",
         "title" : "Happy",
-        "imgURl" : "url(src/assets/coffee-beans.jpg)"
+        "imgURl" : ""
     },
     {
         "id" : 6,
