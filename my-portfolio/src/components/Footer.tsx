@@ -12,6 +12,7 @@ export function Footer() {
                 <div className="flex flex-col-reverse md:flex-row justify-between p-8 gap-8">
                     <h1 className='text-md flex justify-center items-center text-primary-color-1'>© All Rights Reserved. Created by Andrei Sager — 2023</h1>
                     <ul className='flex flex-row gap-4 justify-center text-primary-color-1'>
+                        <li className='flex justify-center items-center'><a href="">About</a></li>
                         <li className='flex justify-center items-center'><a href=""><BsInstagram size={iconSize}/></a></li>
                         <li className='flex justify-center items-center md:order-1'><a href=""><BsFacebook size={iconSize}/></a></li>
                     </ul>
