@@ -28,10 +28,24 @@
         "imgURl" : "url(src/assets/coffee-beans.jpg)"
     },
     {
-        "id" : 4,
+        "id" : 5,
         "itemType" : "Chillings",
         "altMessage" : "Bing",
         "title" : "Happy",
         "imgURl" : "url(src/assets/coffee-beans.jpg)"
+    },
+    {
+        "id" : 6,
+        "itemType" : "Recipe",
+        "altMessage" : "Glowstone Peach",
+        "title" : "Happy",
+        "imgURl" : "glowstone-peach.jpg"
+    },
+    {
+        "id" : 7,
+        "itemType" : "Recipe",
+        "altMessage" : "Glowstone Peach",
+        "title" : "Happy",
+        "imgURl" : "yellow-jackson.jpg"
     }
 ]
