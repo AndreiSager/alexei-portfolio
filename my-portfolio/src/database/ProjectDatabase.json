@@ -9,29 +9,29 @@
     {
         "id" : 2,
         "itemType" : "Project",
-        "altMessage" : "Coffee",
-        "title" : "Relaxing with coworkers during break",
+        "altMessage" : "Website",
+        "title" : "Chill",
         "imgURl" : "coffee-beans.jpg"
     },
     {
         "id" : 3,
         "itemType" : "Visit",
-        "altMessage" : "Coffee",
-        "title" : "Relaxing with coworkers during break",
+        "altMessage" : "Country",
+        "title" : "Mad",
         "imgURl" : "url(src/assets/coffee-beans.jpg)"
     },
     {
         "id" : 4,
         "itemType" : "Work Experience",
-        "altMessage" : "Coffee",
-        "title" : "Relaxing with coworkers during break",
+        "altMessage" : "Company",
+        "title" : "Bad",
         "imgURl" : "url(src/assets/coffee-beans.jpg)"
     },
     {
         "id" : 4,
-        "itemType" : "Work Experience",
-        "altMessage" : "Coffee",
-        "title" : "Relaxing with coworkers during break",
+        "itemType" : "Chillings",
+        "altMessage" : "Bing",
+        "title" : "Happy",
         "imgURl" : "url(src/assets/coffee-beans.jpg)"
     }
 ]
