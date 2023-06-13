@@ -5,8 +5,8 @@ export function Footer() {
     const nbsp = "\u00A0"
 
     return (
-        <div className="flex justify-center text-center w-full">
-            <div className="flex flex-col w-full max-w-screen-xl bg-accent-1">
+        <div className="flex justify-center text-center w-full bg-accent-1">
+            <div className="flex flex-col w-full max-w-screen-xl">
                 <div className='flex justify-center text-center p-8'>
                     <a href="#" className='text-3xl font-bold text-neutral-2'>Back To Top</a>
                 </div>
