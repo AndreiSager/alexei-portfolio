@@ -1,4 +1,5 @@
 # How to add a new item
+
 1. You must first open the database file called ```ProjectDatabase.json```.
 2. You can add a new item by copying an item and changing its values. 
 ```json
