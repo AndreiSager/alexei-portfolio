@@ -1,52 +1,34 @@
 [
     {
-        "id" : 1,
-        "itemType" : "Event",
-        "altMessage" : "Coffee",
-        "title" : "Relaxing with coworkers during break",
-        "imgURl" : "coffee.jpg"
+        "id" : 1, 
+        "content": { 
+            "title" : "Alchohol Break",
+            "date" : "",
+            "itemType" : "Event",
+            "description" : "",
+            "client" : "",
+            "role" : "",
+            "url" : ""
+        },
+        "images": {
+            "thumbnail" : "coffee-beans.jpg",
+            "samples" : {}
+        }
     },
     {
-        "id" : 2,
-        "itemType" : "Project",
-        "altMessage" : "Website",
-        "title" : "Chill Coffee",
-        "imgURl" : "coffee-beans.jpg",
-        "itemDate" : "2021-2024"
-    },
-    {
-        "id" : 3,
-        "itemType" : "Visit",
-        "altMessage" : "Country",
-        "title" : "Mad",
-        "imgURl" : ""
-    },
-    {
-        "id" : 4,
-        "itemType" : "Work Experience",
-        "altMessage" : "Company",
-        "title" : "Bad",
-        "imgURl" : ""
-    },
-    {
-        "id" : 5,
-        "itemType" : "Chillings",
-        "altMessage" : "Bing",
-        "title" : "Happy",
-        "imgURl" : ""
-    },
-    {
-        "id" : 6,
-        "itemType" : "",
-        "altMessage" : "Glowstone Peach",
-        "title" : "Happy",
-        "imgURl" : "glowstone-peach.jpg"
-    },
-    {
-        "id" : 7,
-        "itemType" : "Recipe",
-        "altMessage" : "Glowstone Peach",
-        "title" : "Happy",
-        "imgURl" : "yellow-jackson.jpg"
+        "id" : 2, 
+        "content": { 
+            "title" : "Alchohol Break",
+            "date" : "",
+            "itemType" : "Event",
+            "description" : "",
+            "client" : "",
+            "role" : "",
+            "url" : ""
+        },
+        "images": {
+            "thumbnail" : "coffee-beans.jpg",
+            "samples" : {}
+        }
     }
 ]
