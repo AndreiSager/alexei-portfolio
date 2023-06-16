@@ -12,7 +12,16 @@
         },
         "images": {
             "thumbnail" : "coffee-beans.jpg",
-            "samples" : {}
+            "samples" : [ 
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : ""},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
+            ]
         }
     },
     {
@@ -28,7 +37,10 @@
         },
         "images": {
             "thumbnail" : "coffee-beans.jpg",
-            "samples" : {}
+            "samples" : [ 
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
+            ]
         }
     }
 ]

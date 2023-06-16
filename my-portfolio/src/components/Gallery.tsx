@@ -11,7 +11,6 @@ export function Gallery() {
         setModal(!modal)
     }
     const [i, setIndex] = useState(0);
-
     function updateContent(id: number): void {
         setIndex(id - 1);
         handleModal();
@@ -36,27 +35,27 @@ export function Gallery() {
                     ))}
                 </div>
             </div>
-            <div id='overlay' className={modal ? 'block fixed justify-center z-10 left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.4)] pointer-events-auto' : "hidden"}>
-                <div className='bg-primary-1 mx-full md:max-w-screen-md md:mx-auto p-12 md:p-16 md:mt-20 pointer-events-none z-20'>
-                    <div className='flex flex-row justify-between pointer-events-none mb-8'>
-                        <h1 className='font-extrabold text-xl'>{projects[i].content.title}</h1>
-                        <span onClick={handleModal} className='pointer-events-auto'><ImCross id='exit' size={20}/></span>
+            <div className={modal ? 'fixed justify-center z-10 left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.4)] pointer-events-auto backdrop-blur-sm' : "hidden"}>
+                <div className='bg-primary-1 mx-full md:max-w-screen-md md:mx-auto p-12 md:p-16 md:my-20 pointer-events-none z-20 flex flex-col gap-8'>
+                    <div className='flex flex-row justify-between pointer-events-none'>
+                        <h1 className='font-medium text-xl'>{projects[i].content.title}</h1>
+                        <span onClick={handleModal} className='pointer-events-auto hover:text-neutral-4'><ImCross id='exit' size={20}/></span>
                     </div>
                     <div className='flex flex-wrap flex-col md:flex-row text-left gap-6'>
-                        <div className='flex flex-col'>
-                            <h6 className='text-md'>Position/Role: {projects[i].content.role}</h6>
+                        <div className='flex flex-col text-md font-serif text-slate-600'>
+                            <h6>Position/Role: {projects[i].content.role}</h6>
                             <h6>Client: {projects[i].content.client}</h6>
                             <h6>Link: {projects[i].content.url}</h6>
                         </div>
                         <div>
-                            <p className='text-lg text-md w-full font-medium'>{projects[i].content.description}</p>
+                            <p className='text-lg text-md w-full font-normal'>{projects[i].content.description}</p>
                         </div>
                     </div>
-                    <div className='w-full h-1 bg-neutral-1 mt-5'></div>
-                    <div>
-                        {projects.map((project) => (
-                            <div key={project.id}>
-                                <img src={`src/assets/${project.images.samples}`} alt="" />
+                    <div className='flex flex-wrap gap-8'>
+                        {projects[i].images.samples.map((sample) => (
+                            <div key={i} className='w-fit flex flex-col gap-2'>
+                                <img src={`src/assets/${sample.sampleImage}`} alt=""/>
+                                <p className='text-sm text-slate-500'>{sample.caption}</p>
                             </div>
                         ))}
                     </div>
