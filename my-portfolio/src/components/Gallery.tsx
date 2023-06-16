@@ -12,7 +12,7 @@ export function Gallery() {
     }
     const [i, setIndex] = useState(0);
 
-    function handleContent(id: number): void {
+    function updateContent(id: number): void {
         setIndex(id - 1);
         handleModal();
     }
@@ -27,7 +27,7 @@ export function Gallery() {
                                 className='relative aspect-square object-cover'/>
                             <div className={!modal ? 'absolute top-0 bottom-0 left-0 right-0 w-full h-full bg-opacity-0 text-opacity-0 duration-200 ease-linear bg-neutral-1 hover:bg-opacity-50 hover:text-opacity-100 text-primary-1 z-20 hover:z-0' : 'pointer-events-none hidden'}>
                                 <div className='relative w-[80%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                                    <button onClick={() => handleContent(project.id)} className='text-2xl md:text-3xl underline font-extrabold'>{project.content.title}</button>
+                                    <button onClick={() => updateContent(project.id)} className='text-2xl md:text-3xl underline font-extrabold'>{project.content.title}</button>
                                     <h1 className='mt-2 text-sm font-bold z-10'>{project.content.date}</h1>
                                     <h1 className='text-sm z-10'>{project.content.itemType}</h1>
                                 </div>
@@ -36,14 +36,29 @@ export function Gallery() {
                     ))}
                 </div>
             </div>
-            <div onClick={handleModal} className={modal ? 'block fixed justify-center z-10 left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.4)]' : "hidden"}>
-                <div className='bg-primary-1 mx-full md:max-w-screen-md md:mx-auto p-8 md:p-12 md:mt-20 pointer-events-none z-20'>
-                    <div className='flex flex-row justify-between'>
-                        <h1>Title</h1>
-                        <button onClick={handleModal}><ImCross id='exit' size={30}/></button>
+            <div id='overlay' className={modal ? 'block fixed justify-center z-10 left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.4)] pointer-events-auto' : "hidden"}>
+                <div className='bg-primary-1 mx-full md:max-w-screen-md md:mx-auto p-12 md:p-16 md:mt-20 pointer-events-none z-20'>
+                    <div className='flex flex-row justify-between pointer-events-none mb-8'>
+                        <h1 className='font-extrabold text-xl'>{projects[i].content.title}</h1>
+                        <span onClick={handleModal} className='pointer-events-auto'><ImCross id='exit' size={20}/></span>
                     </div>
+                    <div className='flex flex-wrap flex-col md:flex-row text-left gap-6'>
+                        <div className='flex flex-col'>
+                            <h6 className='text-md'>Position/Role: {projects[i].content.role}</h6>
+                            <h6>Client: {projects[i].content.client}</h6>
+                            <h6>Link: {projects[i].content.url}</h6>
+                        </div>
+                        <div>
+                            <p className='text-lg text-md w-full font-medium'>{projects[i].content.description}</p>
+                        </div>
+                    </div>
+                    <div className='w-full h-1 bg-neutral-1 mt-5'></div>
                     <div>
-                        <h2>{Projects[i].content.title}</h2>
+                        {projects.map((project) => (
+                            <div key={project.id}>
+                                <img src={`src/assets/${project.images.samples}`} alt="" />
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>

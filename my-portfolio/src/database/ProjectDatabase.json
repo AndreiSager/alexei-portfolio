@@ -2,12 +2,12 @@
     {
         "id" : 1, 
         "content": { 
-            "title" : "Alchohol Break",
-            "date" : "",
-            "itemType" : "Event",
-            "description" : "",
-            "client" : "",
-            "role" : "",
+            "title" : "Yellow Jackson",
+            "date" : "2020",
+            "itemType" : "Recipe",
+            "description" : "I have created my own recipe",
+            "client" : "None",
+            "role" : "Bartender",
             "url" : ""
         },
         "images": {
@@ -18,7 +18,7 @@
     {
         "id" : 2, 
         "content": { 
-            "title" : "Alchohol Break",
+            "title" : "Shane Break",
             "date" : "",
             "itemType" : "Event",
             "description" : "",
