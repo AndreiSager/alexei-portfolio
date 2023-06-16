@@ -19,7 +19,7 @@ export function Gallery() {
     return (
         <div className="flex justify-center text-center w-full">
             <div className='flex flex-row max-w-screen-xl'>
-                <div className="w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div className="w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     {projects.map((project) => (
                         <div key={project.id} className="relative min-w-full min-h-full aspect-square mx-auto ">
                             <img src={`src/assets/${project.images.thumbnail}`} alt="No Thumbnail Image"
@@ -43,9 +43,9 @@ export function Gallery() {
                     </div>
                     <div className='flex flex-wrap flex-col md:flex-row text-left gap-6'>
                         <div className='flex flex-col text-md font-serif text-slate-600'>
-                            <h6>Position/Role: {projects[i].content.role}</h6>
+                            <h6>Role: {projects[i].content.role}</h6>
                             <h6>Client: {projects[i].content.client}</h6>
-                            <h6>Link: {projects[i].content.url}</h6>
+                            <h6>{projects[i].content.url}</h6>
                         </div>
                         <div>
                             <p className='text-lg text-md w-full font-normal'>{projects[i].content.description}</p>
