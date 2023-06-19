@@ -3,7 +3,8 @@ import { About } from './components/About'
 import { Footer } from './components/Footer'
 import { Gallery } from './components/Gallery'
 import { Navbar } from './components/Navbar'
-import { ClockLoader } from 'react-spinners'
+import { ClockLoader, ClimbingBoxLoader
+} from 'react-spinners'
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -19,9 +20,10 @@ function App() {
     <>
     {isLoading ? 
       <div className='flex h-[100vh] justify-center items-center'>
-            <ClockLoader
+            <ClimbingBoxLoader
+
             loading={isLoading}
-            size={150}
+            size={30}
             color='#7F5539'
             aria-label="Loading Spinner"
             data-testid="loader"
