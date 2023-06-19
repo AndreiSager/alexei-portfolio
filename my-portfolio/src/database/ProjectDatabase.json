@@ -42,5 +42,24 @@
                 { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
             ]
         }
+    },
+    {
+        "id" : 3, 
+        "content": { 
+            "title" : "Shane Break",
+            "date" : "",
+            "itemType" : "Event",
+            "description" : "",
+            "client" : "",
+            "role" : "",
+            "url" : ""
+        },
+        "images": {
+            "thumbnail" : "coffee-beans.jpg",
+            "samples" : [ 
+                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
+                { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
+            ]
+        }
     }
 ]
