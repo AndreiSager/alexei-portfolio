@@ -16,8 +16,6 @@ export function Gallery() {
         handleModal();
     }
 
-    // const imageIndexes: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
     return (
         <div className="flex justify-center text-center w-full">
             <div className='flex flex-row max-w-screen-xl'>
@@ -28,8 +26,7 @@ export function Gallery() {
                                 src={`https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/thumbnails/thumbnail-${project.id}.jpg`}
                                 srcSet={`
                                       https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-400/thumbnails/thumbnail-${project.id}.jpg?width=400 400w,
-                                      https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-800/thumbnails/thumbnail-${project.id}.jpg?width=800 800w,
-                                      https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-1200/thumbnails/thumbnail-${project.id}.jpg?width=1200 1200w
+                                      https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-800/thumbnails/thumbnail-${project.id}.jpg?width=800 800w
                                 `}
                                 alt="No Thumbnail Image"
                                 loading='lazy'
