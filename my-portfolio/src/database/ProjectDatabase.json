@@ -11,8 +11,7 @@
             "url" : ""
         },
         "images": [
-            { "id" : 1, "altMessage" : "You are gay"},
-            { "id" : 2, "altMessage" : "You are gay"}
+            { "id" : 1, "note" : "You are gay"}
         ]
     },
     {
@@ -27,8 +26,8 @@
             "url" : ""
         },
         "images": [
-            { "id" : 1, "altMessage" : "You are gay"},
-            { "id" : 2, "altMessage" : "You are gay"}
+            { "id" : 1, "note" : "You are gay"},
+            { "id" : 2, "note" : "You are gay"}
         ]
     }
 ]

@@ -68,7 +68,12 @@ export function Gallery() {
                             <div key={i} className='w-fit flex flex-col gap-2'>
                                 <img 
                                     src={`https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/project-${i}/image-${image.id}.jpg?`}
-                                    alt={image.altMessage}
+                                    srcSet={`
+                                          https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-400/project-${i}/image-${image.id}.jpg?width=400 400w,
+                                          https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-800/project-${i}/image-${image.id}.jpg?width=800 800w,
+                                          https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-1200/project-${i}/image-${image.id}.jpg?width=1200 1200w
+                                    `}
+                                    alt=""
                                     loading='lazy'
                                     decoding="async"
                                 />
