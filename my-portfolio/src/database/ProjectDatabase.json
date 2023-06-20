@@ -10,56 +10,25 @@
             "role" : "Bartender",
             "url" : ""
         },
-        "images": {
-            "thumbnail" : "coffee-beans.jpg",
-            "samples" : [ 
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : ""},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
-            ]
-        }
+        "images": [
+            { "id" : 1, "altMessage" : "You are gay"},
+            { "id" : 2, "altMessage" : "You are gay"}
+        ]
     },
     {
         "id" : 2, 
         "content": { 
-            "title" : "Shane Break",
-            "date" : "",
-            "itemType" : "Event",
-            "description" : "",
-            "client" : "",
-            "role" : "",
+            "title" : "Yellow Jackson",
+            "date" : "2020",
+            "itemType" : "Recipe",
+            "description" : "I have created my own recipe",
+            "client" : "None",
+            "role" : "Bartender",
             "url" : ""
         },
-        "images": {
-            "thumbnail" : "coffee-beans.jpg",
-            "samples" : [ 
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
-            ]
-        }
-    },
-    {
-        "id" : 3, 
-        "content": { 
-            "title" : "Shane Break",
-            "date" : "",
-            "itemType" : "Event",
-            "description" : "",
-            "client" : "",
-            "role" : "",
-            "url" : ""
-        },
-        "images": {
-            "thumbnail" : "coffee-beans.jpg",
-            "samples" : [ 
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "You are gay"},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : ""}
-            ]
-        }
+        "images": [
+            { "id" : 1, "altMessage" : "You are gay"},
+            { "id" : 2, "altMessage" : "You are gay"}
+        ]
     }
 ]
