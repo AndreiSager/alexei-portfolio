@@ -23,7 +23,7 @@ export default {
       },
     },
     backgroundImage: {
-      'home-texture': "url('/compressed/images/coffee.jpg')",
+      'home-texture': "url('https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/tr:w-1000/compressed/coffee2.jpg?updatedAt=1687253258998?width=1000 1000w')",
     }
   },
   plugins: [],
