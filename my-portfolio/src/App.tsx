@@ -3,7 +3,7 @@ import { About } from './components/About'
 import { Footer } from './components/Footer'
 import { Gallery } from './components/Gallery'
 import { Navbar } from './components/Navbar'
-import { ClimbingBoxLoader } from 'react-spinners'
+import ClimbingBoxLoader from 'react-spinners/ClimbingBoxLoader'
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);

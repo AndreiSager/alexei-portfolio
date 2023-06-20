@@ -22,8 +22,13 @@ export function Gallery() {
                 <div className="w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
                     {projects.map((project) => (
                         <div key={project.id} className="relative min-w-full min-h-full aspect-square mx-auto">
-                            <img src={`src/assets/${project.images.thumbnail}`} alt="No Thumbnail Image"
-                                className='relative aspect-square object-cover'/>
+                            <img 
+                                src={`src/assets/${project.images.thumbnail}`} 
+                                alt="No Thumbnail Image"
+                                loading='lazy'
+                                decoding="async"
+                                className='relative aspect-square object-cover'
+                            />
                             <div className={!modal ? 'absolute top-0 bottom-0 left-0 right-0 w-full h-full bg-opacity-0 text-opacity-0 duration-200 ease-linear bg-neutral-1 hover:bg-opacity-50 hover:text-opacity-100 text-primary-1 z-20 hover:z-0' : 'pointer-events-none hidden'}>
                                 <div className='relative w-[80%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                                     <button onClick={() => updateContent(project.id)} className='text-2xl md:text-3xl underline font-extrabold'>{project.content.title}</button>
@@ -54,7 +59,12 @@ export function Gallery() {
                     <div className='flex flex-wrap gap-8'>
                         {projects[i].images.samples.map((sample) => (
                             <div key={i} className='w-fit flex flex-col gap-2'>
-                                <img src={`src/assets/${sample.sampleImage}`} alt=""/>
+                                <img 
+                                    src={`src/assets/${sample.sampleImage}`} 
+                                    alt=""
+                                    loading='lazy'
+                                    decoding="async"
+                                />
                                 <p className='text-sm text-slate-500'>{sample.caption}</p>
                             </div>
                         ))}

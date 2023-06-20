@@ -23,7 +23,7 @@ export default {
       },
     },
     backgroundImage: {
-      'home-texture': "url('/images/coffee.jpg')",
+      'home-texture': "url('/compressed/images/coffee.jpg')",
     }
   },
   plugins: [],
