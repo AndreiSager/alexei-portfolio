@@ -1,4 +1,3 @@
-// import image from '/images/compressed/me.jpg'
 import { AiOutlineArrowDown } from 'react-icons/ai'
 
 export function About() {
