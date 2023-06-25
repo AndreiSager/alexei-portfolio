@@ -11,7 +11,7 @@
             "date" : "June 20, 2023",
             "itemType" : "Travel",
             "description" : "Finally, after all these year I have traveled to japan! More stuff...",
-            "client" : "John Doe)",
+            "client" : "John Doe",
             "role" : "Bartender",
             "url" : ""
         },
@@ -42,4 +42,11 @@
 <br>**Description**: The description of the ongoing or previous events on what happened.
 <br>**Client**: Refers to the client of someone who you worked for.
 <br>**Role**: Refers to your contribution to the said item.
-<br>**Url**: The link to a hosted project, article, or event. 
+<br>**Url**: The link to a hosted project, article, or event.
+
+# How to add an optimized image:
+Step 1: Go to tinyPNG and compress all your images. Save them on the same directory on a compressed folder. 
+<br>Step 2: Upload the compressed images to ImageKit and copy the URL as the img src. (You can use other services as intermediaries)
+<br>Step 3: Setup image transformations for each of your image ```srcset```. When implementing ```srcset``` your ```src``` becomes your default. 
+
+**Note**: Shane make sure to add a note or comment when adding an image in the database.
