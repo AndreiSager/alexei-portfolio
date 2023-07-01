@@ -2,28 +2,26 @@
 **Step 1**: Find and open ```index.ts``` at ```my-portfolio/src/constants/index.ts```.
 <br>**Step 2**: Change the content.
 
-# How to add a new item
-**Step 1**: Open the database file called ```ProjectDatabase.json```.
-<br>**Step 2**: Add a new item by copying the sample below.
-<br>
+Note: All the variables are self-explanatory. I hope there would be no problems when adding data. 
+
 ## Sample Database Item
 ```json
     {
-        "id" : 1, 
-        "content": { 
-            "title" : "My First Visit to Japan",
-            "date" : "June 20, 2023",
-            "itemType" : "Travel",
-            "description" : "Finally, after all these year I have traveled to japan! More stuff...",
-            "client" : "John Doe",
-            "role" : "Bartender",
-            "url" : ""
+        id: 1, 
+        content: { 
+            title: "My First Visit to Japan",
+            date: "June 20, 2023",
+            itemType: "Travel",
+            description: "Finally, after all these year I have traveled to japan! More stuff...",
+            client: "John Doe",
+            role: "Bartender",
+            url: "/"
         },
-        "images": {
-            "thumbnail" : "coffee-beans.jpg",
-            "samples" : [ 
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "This is caption one."},
-                { "sampleImage" : "coffee-beans.jpg", "caption" : "This is caption two refer to image one."}
+        images: {
+            thumbnail: "coffee-beans.jpg",
+            samples: [ 
+                { id: 1, note : "This is caption one."},
+                { id: 2, note : "This is caption two refer to image one."}
             ]
         }
     }
@@ -41,7 +39,6 @@
 | Year to year | 2020-2023 |
 | Year to present |  2023-present(ongoing) |
 
-
 <br>**Item Type**: Refers to the category of the item. Is it an ```Event, Recipe, Work Experience, Project, Travel, or anything else.```.
 <br>**Description**: The description of the ongoing or previous events on what happened.
 <br>**Client**: Refers to the client of someone who you worked for.
@@ -55,4 +52,4 @@ Step 1: Go to tinyPNG and compress all your images. Save them on the same direct
 
 **Note**: Shane make sure to add a note or comment when adding an image in the database.
 
-# Some Of The Images Used Are From Pixawizard and Pixabay
+# Some Of The Images Used Are From Pixawizard and Pixabay.
