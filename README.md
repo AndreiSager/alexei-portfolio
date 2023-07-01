@@ -1,3 +1,7 @@
+# How To Change Portfolio Content
+**Step 1**: Find and open ```index.ts``` at ```my-portfolio/src/constants/index.ts```.
+<br>**Step 2**: Change the content.
+
 # How to add a new item
 **Step 1**: Open the database file called ```ProjectDatabase.json```.
 <br>**Step 2**: Add a new item by copying the sample below.
@@ -50,3 +54,5 @@ Step 1: Go to tinyPNG and compress all your images. Save them on the same direct
 <br>Step 3: Setup image transformations for each of your image ```srcset```. When implementing ```srcset``` your ```src``` becomes your default. 
 
 **Note**: Shane make sure to add a note or comment when adding an image in the database.
+
+# Some Of The Images Used Are From Pixawizard and Pixabay
