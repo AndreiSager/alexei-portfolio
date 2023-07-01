@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import Projects from '../database/ProjectDatabase.json'
 import { ImCross } from 'react-icons/im'
+import { GalleryItemData } from '../constants/index.ts'
 
 export function Gallery() {
-    // Displays the gallery in reverse
-    const projects = Projects.slice().reverse();
+    const gallery = GalleryItemData.slice().reverse();
 
     const [modal, setModal] = useState(false);
     const handleModal = () => {
@@ -20,7 +19,7 @@ export function Gallery() {
         <div className="flex justify-center text-center w-full">
             <div className='flex flex-row max-w-screen-xl'>
                 <div className="w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
-                    {projects.map((project) => (
+                    {gallery.map((project) => (
                         <div key={project.id} className="relative min-w-full min-h-full aspect-square mx-auto">
                             <img 
                                 src={`https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/thumbnails/thumbnail-${project.id}.jpg`}
@@ -47,21 +46,21 @@ export function Gallery() {
             <div className={modal ? 'fixed justify-center z-10 left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.4)] pointer-events-auto backdrop-blur-sm' : "hidden"}>
                 <div className='bg-primary-1 mx-full md:max-w-screen-md md:mx-auto p-12 md:p-16 md:my-20 pointer-events-none z-20 flex flex-col gap-8'>
                     <div className='flex flex-row justify-between pointer-events-none'>
-                        <h1 className='font-medium text-xl'>{projects[i].content.title}</h1>
+                        <h1 className='font-medium text-xl'>{gallery[i].content.title}</h1>
                         <span onClick={handleModal} className='pointer-events-auto hover:text-neutral-4'><ImCross id='exit' size={20}/></span>
                     </div>
                     <div className='flex flex-wrap flex-col md:flex-row text-left gap-6'>
                         <div className='flex flex-col text-md font-serif text-slate-600'>
-                            <h6>Role: {projects[i].content.role}</h6>
-                            <h6>Client: {projects[i].content.client}</h6>
-                            <h6>{projects[i].content.url}</h6>
+                            <h6>Role: {gallery[i].content.role}</h6>
+                            <h6>Client: {gallery[i].content.client}</h6>
+                            <h6>{gallery[i].content.url}</h6>
                         </div>
                         <div>
-                            <p className='text-lg text-md w-full font-normal'>{projects[i].content.description}</p>
+                            <p className='text-lg text-md w-full font-normal'>{gallery[i].content.description}</p>
                         </div>
                     </div>
                     <div className='flex flex-wrap gap-8'>
-                        {projects[i].images.map((image) => (
+                        {gallery[i].images.map((image) => (
                             <div key={i} className='w-fit flex flex-col gap-2'>
                                 <img 
                                     src={`https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/project-${i}/image-${image.id}.jpg?`}

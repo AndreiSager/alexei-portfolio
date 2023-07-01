@@ -7,9 +7,6 @@ export function Footer() {
     return (
         <div className="flex justify-center text-center w-full bg-accent-1">
             <div className="flex flex-col w-full max-w-screen-xl">
-                <div className='flex justify-center text-center p-8'>
-                    <a href="#" className='text-3xl font-bold text-neutral-2'>Back To Top</a>
-                </div>
                 <div className="flex flex-col-reverse md:flex-row justify-between p-8 gap-8">
                     <h1 className='text-md flex flex-row flex-wrap justify-center items-center text-primary-1'>© 2023{nbsp}<a target='blank' href="https://andrei-sager-portfolio.vercel.app" className='underline text-neutral-2'>Andrei Sager</a>{nbsp}& Alexei. All Rights Reserved.</h1>
                     <ul className='flex flex-row gap-4 justify-center text-primary-1'>
