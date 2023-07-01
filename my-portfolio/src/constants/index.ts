@@ -11,7 +11,7 @@ export const SocialMediaLinks = [
 export const AboutContent = {
     imageKitId: "https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/",
     imageAvatar: "compressed/me.jpg",                   
-    title: "Am I Noah?",
+    title: "Who Am I?",
     description: "Insert text here. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, libero nisi! Autem excepturi perspiciatis a fugit voluptate neque quas dicta, dolor sed? Ratione, laborum repellendus obcaecati corporis doloribus vel maiores!",
 }
 
