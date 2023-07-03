@@ -47,7 +47,7 @@ Note: All the variables are self-explanatory. I hope there would be no problems 
 <br>**Role**: Refers to your contribution to the said item.
 <br>**Url**: The link to a hosted project, article, or event.
 
-# How to add an optimized image:
+# How to add an optimized image
 Step 1: Go to tinyPNG and compress all your images. Save them on the same directory on a compressed folder. 
 <br>Step 2: Upload the compressed images to ImageKit and copy the URL as the img src. (You can use other services as intermediaries)
 <br>Step 3: Setup image transformations for each of your image ```srcset```. When implementing ```srcset``` your ```src``` becomes your default. 
