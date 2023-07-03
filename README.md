@@ -8,21 +8,25 @@ Note: All the variables are self-explanatory. I hope there would be no problems 
 ```json
 [
     {
-        id: 1, 
-        content: { 
-            title: "My First Visit to Japan",
-            date: "June 20, 2023",
-            itemType: "Travel",
-            description: "Finally, after all these year I have traveled to japan! More stuff...",
-            client: "John Doe",
-            role: "Bartender",
-            url: "/"
+        "id": 1,
+        "content": {
+            "title": "My First Visit to Japan",
+            "date": "June 20, 2023",
+            "itemType": "Travel",
+            "description": "Finally, after all these years, I have traveled to Japan! More stuff...",
+            "client": "John Doe",
+            "role": "Bartender",
+            "url": "/"
         },
-           images: [
-            { id: 1, note: "You are gay", }
+        "images": [
+            {
+                "id": 1,
+                "note": "You are gay"
+            }
         ]
     }
 ]
+
 ```
 <br>**ID**: Refers to the id of the item. Items are rendered descendingly so recent items are on top.
 > Make sure to that each item id is unique. Do not have duplicates.
