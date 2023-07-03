@@ -17,13 +17,9 @@ Note: All the variables are self-explanatory. I hope there would be no problems 
             role: "Bartender",
             url: "/"
         },
-        images: {
-            thumbnail: "coffee-beans.jpg",
-            samples: [ 
-                { id: 1, note : "This is caption one."},
-                { id: 2, note : "This is caption two refer to image one."}
-            ]
-        }
+           images: [
+            { id: 1, note: "You are gay", }
+        ]
     }
 ```
 <br>**ID**: Refers to the id of the item. Items are rendered descendingly so recent items are on top.
@@ -52,4 +48,6 @@ Step 1: Go to tinyPNG and compress all your images. Save them on the same direct
 
 **Note**: Shane make sure to add a note or comment when adding an image in the database.
 
-# Some Of The Images Used Are From Pixawizard and Pixabay.
+# Be Careful When Adding Images!
+Make sure to attribute any image you use for your gallery or read the content license for any image from a source you use.
+[Pixabay](https://pixabay.com/service/license-summary/).
