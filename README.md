@@ -31,7 +31,6 @@ Note: All the variables are self-explanatory. I hope there would be no problems 
 <br>**ID**: Refers to the id of the item. Items are rendered descendingly so recent items are on top.
 > Make sure to that each item id is unique. Do not have duplicates.
 
-<br>### Content
 <br>**Title**: The title of the item.
 <br>**Date**: The date of the item.
 | Format | Sample |
