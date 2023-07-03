@@ -6,6 +6,7 @@ Note: All the variables are self-explanatory. I hope there would be no problems 
 
 ## Sample Database Item
 ```json
+[
     {
         id: 1, 
         content: { 
@@ -21,6 +22,7 @@ Note: All the variables are self-explanatory. I hope there would be no problems 
             { id: 1, note: "You are gay", }
         ]
     }
+]
 ```
 <br>**ID**: Refers to the id of the item. Items are rendered descendingly so recent items are on top.
 > Make sure to that each item id is unique. Do not have duplicates.
