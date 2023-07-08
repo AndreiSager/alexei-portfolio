@@ -1,5 +1,5 @@
 export const ReferenceLinks = [
-    { title: "Andrei Sager", url: "https://andreisager.vercel.app"},
+    { title: "Andrei Sager", url: "https://andreiportfolio.vercel.app"},
 ]
 
 export const SocialMediaLinks = [
