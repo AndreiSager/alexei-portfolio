@@ -20,6 +20,7 @@ export default {
         'accent-1': '#7F5539',
         'instagram' : '#C13584',
         'facebook' : '#1877f2',
+        'linkedin' : '#0e76a8',
       },
     },
     backgroundImage: {

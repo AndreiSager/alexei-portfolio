@@ -1,5 +1,7 @@
-import { BsInstagram, BsFacebook } from 'react-icons/bs'
 import { SocialMediaLinks } from '../constants';
+import { BsInstagram, BsFacebook } from 'react-icons/bs'
+import { ImLinkedin } from 'react-icons/im'
+
 
 export function Navbar() {
     const iconSize = 30;
@@ -12,20 +14,27 @@ export function Navbar() {
                 <ul className='hidden md:invisible md:flex md:flex-row gap-4 justify-center'>
                     <li className='flex justify-center items-center'><a target="blank" href=""><BsInstagram size={iconSize}/></a></li>
                     <li className='flex justify-center items-center'><a target="blank" href=""><BsFacebook size={iconSize}/></a></li>
+                    <li className='flex justify-center items-center'><a target="blank" href=""><ImLinkedin size={iconSize}/></a></li>
                 </ul>
                 {/* Hidden component to equalize justify */}
                 <h1 className='text-5xl font-black bg-clip-text wk-bg-clip text-transparent bg-cover bg-center bg-home-texture'>ALEXEI</h1>
                 <ul className='flex flex-row gap-4 justify-center text-neutral-3 w-full md:w-fit'>
                     <li className='flex justify-center items-center hover:text-instagram'>
-                        <a target="blank" 
+                        <a target="_blank" 
                             href={link[0].url}>
                             <BsInstagram size={iconSize}/>
                         </a>
                     </li>
                     <li className='flex justify-center items-center hover:text-facebook'>
-                        <a target="blank" 
-                        href={link[1].url}>
+                        <a target="_blank" 
+                            href={link[1].url}>
                             <BsFacebook size={iconSize}/>
+                        </a>
+                    </li>
+                    <li className='flex justify-center items-center hover:text-linkedin'>
+                        <a target="_blank" 
+                            href={link[2].url}>
+                            <ImLinkedin size={iconSize}/>
                         </a>
                     </li>
                 </ul>
