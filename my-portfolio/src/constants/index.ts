@@ -19,6 +19,38 @@ export const GalleryItemData = [
     {
         thumbnail: "swiss-bail.jpg",
         alt: "Swiss Bail",
+        title: "Number 3",
+        date: "2020",
+        itemType: "Recipe",
+        description: "I ¤ 1/2 oz | 15ml | Lime ¤ 1/2 oz | 15ml | Lemon  ¤ 1: 1/2 oz  | 45ml | Orange  ¤ 1 oz or 3/4 oz | 15ml  | Agave syrup ▪︎ Tip:  2 Times /2 of orange & then 2 times 1:1/2 or 1 of orangehave created my own recipe",
+        client: "None",
+        role: "Bartender",
+        url: "",
+        album: "project-0",
+        images: [
+            { image: "image-1.jpg", alt:"Swiss Bail Photo", caption:"A photo of the swiss bail using an old camera." },
+            { image: "image-1.jpg", alt:"Swiss Bail Photo", caption:"A photo of the swiss bail using an old camera." },
+        ]
+    },
+    {
+        thumbnail: "swiss-bail.jpg",
+        alt: "Swiss Bail",
+        title: "Shane",
+        date: "2020",
+        itemType: "Recipe",
+        description: "You look like a midget",
+        client: "None",
+        role: "Bartender",
+        url: "",
+        album: "project-0",
+        images: [
+            { image: "image-1.jpg", alt:"Swiss Bail Photo", caption:"A photo of the swiss bail using an old camera." },
+            { image: "image-1.jpg", alt:"Swiss Bail Photo", caption:"A photo of the swiss bail using an old camera." },
+        ]
+    },
+    {
+        thumbnail: "swiss-bail.jpg",
+        alt: "Swiss Bail",
         title: "SCREW DRIVER",
         date: "2020",
         itemType: "Recipe",

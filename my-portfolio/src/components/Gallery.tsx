@@ -48,7 +48,7 @@ export function Gallery() {
                         <span onClick={handleModal} className='pointer-events-auto hover:text-neutral-4'><ImCross id='exit' size={20}/></span>
                     </div>
                     <div className='flex flex-wrap flex-col md:flex-row text-left gap-6'>
-                        <div className='flex flex-col text-md font-serif text-slate-600'>
+                        <div className='flex flex-col text-md font-serif text-slate-600 w-full'>
                             <h6>Role: {gallery[index].role}</h6>
                             <h6>Client: {gallery[index].client}</h6>
                             <h6>{gallery[index].url}</h6>
@@ -71,6 +71,7 @@ export function Gallery() {
                                     loading='lazy'
                                     decoding="async"
                                 />
+                                <h1>{image.caption}</h1>
                             </div>
                         ))}
                     </div>
