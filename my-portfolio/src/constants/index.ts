@@ -12,17 +12,17 @@ export const AboutContent = {
     imageKitId: "https://ik.imagekit.io/alyujsrzv/Alexei-Portfolio/",
     imageAvatar: "compressed/me.jpg",                   
     title: "Who Am I?",
-    description: "I am a highly motivated and enthusiastic individual with a strong passion for creating exceptional liquor and liqueurs. I am currently seeking a challenging role where I can fully utilize my potential, enhance my ethical and practical skills, and make a meaningful contribution to the company.",
+    description: "Hello, my name is Alexei, I love making liquor and liqueur drinks. Unironically, I'm only interested in making drink not drinking the concoction of alcohol I make. I'm a passionate individual whose goal is to serve drinks classically and elegantly gain the attention of my clients and build my reputation. With that said, I aim to become one of the best bartenders in the world that can make anyone drink with my serene atmosphere.",
 }
 
 export const GalleryItemData = [
     {
         thumbnail: "swiss-bail.jpg",
         alt: "Swiss Bail",
-        title: "Number 3",
+        title: "CUBA LIVER",
         date: "2020",
         itemType: "Recipe",
-        description: "I ¤ 1/2 oz | 15ml | Lime ¤ 1/2 oz | 15ml | Lemon  ¤ 1: 1/2 oz  | 45ml | Orange  ¤ 1 oz or 3/4 oz | 15ml  | Agave syrup ▪︎ Tip:  2 Times /2 of orange & then 2 times 1:1/2 or 1 of orangehave created my own recipe",
+        description: " Lime 3/4 oz, 20ml | Lemon 1/2 oz, 15ml | Agave syrup 1 oz or 3/4 oz, 15ml | ▪︎ Optional: Lemon and use your favorite Coca-Cola soda.",
         client: "None",
         role: "Bartender",
         url: "",
@@ -35,10 +35,10 @@ export const GalleryItemData = [
     {
         thumbnail: "swiss-bail.jpg",
         alt: "Swiss Bail",
-        title: "Shane",
+        title: "LIME MOJITO",
         date: "2020",
         itemType: "Recipe",
-        description: "You look like a midget",
+        description: " Lime 1:1/2 oz, 45ml | Lemon 1/2 oz, 15ml | Agave Syrup 1 oz or 3/4 oz, 15ml | Lemonade / Orange Soda ▪︎ Tip: if you want to use Sanpelligrino if not its fine. ▪︎ Optional: Ginger ALE",
         client: "None",
         role: "Bartender",
         url: "",
@@ -54,7 +54,7 @@ export const GalleryItemData = [
         title: "SCREW DRIVER",
         date: "2020",
         itemType: "Recipe",
-        description: "I ¤ 1/2 oz | 15ml | Lime ¤ 1/2 oz | 15ml | Lemon  ¤ 1: 1/2 oz  | 45ml | Orange  ¤ 1 oz or 3/4 oz | 15ml  | Agave syrup ▪︎ Tip:  2 Times /2 of orange & then 2 times 1:1/2 or 1 of orangehave created my own recipe",
+        description: " Lime 1/2 oz, 15ml | Lemon 1/2 oz, 15ml | Orange 1: 1/2 oz, 45ml | Agave syrup 1 or 3/4 oz, 15ml | ▪︎ Tip: 2 Times / 2 of orange & then 2 times 1:1/2 or 1 of orange",
         client: "None",
         role: "Bartender",
         url: "",
