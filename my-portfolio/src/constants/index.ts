@@ -30,7 +30,7 @@ export const GalleryItemData = [
         album: "project-0",
         images: [
             { id:1, image: "image-1.jpg", alt:"Swiss Bail Photo", title:"Testing", description:"A photo of the swiss bail using an old camera." },
-            { id:2, image: "image-1.jpg", alt:"Swiss Bail Photo", title:"", description:"A photo of the swiss bail using an old camera." },
+            { id:2, image: "image-1.jpg", alt:"Swiss Bail Photo", title:"", description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cumque animi iste veritatis ullam cum, natus voluptatem eligendi dignissimos suscipit vitae error itaque sed minima vero ut minus expedita voluptatum temporibus doloremque? Placeat dolorum voluptas adipisci, necessitatibus corrupti tenetur quibusdam exercitationem commodi nobis tempore magnam obcaecati, ab quidem sequi molestiae?" },
         ]
     },
     // {
