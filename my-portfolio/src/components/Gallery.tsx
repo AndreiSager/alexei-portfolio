@@ -43,7 +43,7 @@ export function Gallery() {
             </div>
             <div className={modal ? 'fixed justify-center z-10 left-0 top-0 w-full h-full overflow-auto bg-[rgba(0,0,0,0.4)] pointer-events-auto backdrop-blur-sm overscroll-none' : "hidden"}>
                 <div className='bg-primary-1 mx-full md:max-w-screen-md md:mx-auto p-12 md:p-16 md:my-20 pointer-events-none z-20 flex flex-col gap-8'>
-                    <div className='flex flex-row justify-between pointer-events-none'>
+                    <div className='flex flex-row justify-between items-center pointer-events-none'>
                         <h1 className='font-bold text-4xl'>{gallery[index].title}</h1>
                         <span onClick={handleModal} className='pointer-events-auto hover:text-neutral-4'><ImCross id='exit' size={20}/></span>
                     </div>
