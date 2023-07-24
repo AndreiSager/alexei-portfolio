@@ -16,7 +16,7 @@ export default function SocialMediaLinks( { hidden, dark }:LinkProps )  {
 
     useEffect(() => {
         setDark(!dark ? "text-neutral-3 " : "text-white")
-        setHidden(!hidden ? "flex flex-row gap-4 justify-center w-full md:w-fit" : "flex flex-row gap-4 justify-center w-full md:w-fit hidden lg:invisible");
+        setHidden(!hidden ? "flex flex-row gap-4 justify-center w-full md:w-fit " : "flex flex-row gap-4 justify-center w-full md:w-fit invisible");
     }, []);
 
     return(
