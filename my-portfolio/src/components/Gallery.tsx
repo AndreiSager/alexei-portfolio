@@ -16,7 +16,7 @@ export function Gallery() {
     return (
         <div className="flex justify-center text-center w-full">
             <div className='flex flex-row max-w-screen-xl'>
-                <div className="w-full grid grid-row-reverse grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+                <div className="w-full grid grid-flow-row-dense grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {gallery.map((project) => (
                         <div key={project.id} className="relative min-w-full min-h-full aspect-square mx-auto">
                             <img 
