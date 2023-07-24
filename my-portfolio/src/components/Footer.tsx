@@ -1,12 +1,8 @@
-import { SocialMediaLinks } from '../constants';
+import SocialMediaLinks from "./SocialMedia";
 import { ReferenceLinks } from '../constants';
-import { BsInstagram, BsFacebook } from 'react-icons/bs'
-import { ImLinkedin } from 'react-icons/im'
 
 export function Footer() {
-    const iconSize = 30;
     const nbsp = "\u00A0";
-    const link = SocialMediaLinks;
     const ref = ReferenceLinks;
 
     return (
@@ -19,26 +15,7 @@ export function Footer() {
                             className='underline text-neutral-2'>{ref[0].title}
                         </a>{nbsp}& Alexei. All Rights Reserved.
                     </h1>
-                    <ul className='flex flex-row gap-4 justify-center text-primary-1'>
-                        <li className='flex justify-center items-center hover:text-instagram hover:brightness-125'>
-                            <a target="_blank" 
-                                href={link[0].url}>
-                                <BsInstagram size={iconSize}/>
-                            </a>
-                        </li>
-                        <li className='flex justify-center items-center md:order-1 hover:text-facebook hover:brightness-125'>
-                            <a target="_blank" 
-                                href={link[1].url}>
-                                <BsFacebook size={iconSize}/>
-                            </a>
-                        </li>
-                        <li className='flex justify-center items-center md:order-1 hover:text-linkedin hover:brightness-125'>
-                            <a target="_blank" 
-                                href={link[2].url}>
-                                <ImLinkedin size={iconSize}/>
-                            </a>
-                        </li>
-                    </ul>
+                    <SocialMediaLinks dark/>
                 </div>
             </div>
         </div>
