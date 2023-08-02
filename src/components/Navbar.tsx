@@ -3,7 +3,7 @@ import SocialMediaLinks from "./SocialMedia";
 export function Navbar() {
     return (
         <div className="flex flex-wrap justify-center items-center text-center w-full">
-            <div className="flex flex-col md:flex-row gap-y-8 justify-center md:justify-between md:gap-auto items-center p-8 w-full max-w-screen-xl">
+            <div className="flex flex-col md:flex-row gap-y-8 justify-center md:justify-between md:gap-auto items-center p-8 w-full max-w-screen-xl shadow-md">
                 <div className="hidden md:invisible md:flex order-3 sm:order-1">
                     <SocialMediaLinks/>
                 </div>
