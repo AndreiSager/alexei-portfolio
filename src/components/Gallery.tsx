@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ImCross } from 'react-icons/im'
-import { GalleryItemData as gallery} from '../constants/index.ts'
+import { GalleryItemData as gallery} from '../constants/index.tsx'
 
 export function Gallery() {
     const [modal, setModal] = useState<true | false>(false);

@@ -1,11 +1,30 @@
+"use client"
+
+import { ReactNode } from 'react';
+
+import { BsInstagram, BsFacebook } from 'react-icons/bs'
+import { ImLinkedin } from 'react-icons/im'
+
+import MdEventAvailable from 'react-icons';
+
+
 export const ReferenceLinks = [
     { title: "Andrei Sager", url: "https://andreiportfolio.vercel.app"},
 ]
 
-export const SocialMediaLinks = [
-    { title: "Instagram", url: "https://instagram.com/creamy_poachegg?igshid=MzNlNGNkZWQ4Mg==" },
-    { title: "Facebook", url: "https://www.facebook.com/profile.php?id=100091338488777&mibextid=ZbWKwL" },
-    { title: "LinkedIn", url: "https://www.linkedin.com/in/shane-alexei-s-sager-a7a959281/" },
+interface Category {
+    id: number;
+    icon: ReactNode;
+    title: string;
+    url: string;
+}
+const iconSize = 33;
+
+
+export const SocialMediaLinks: Category[] = [
+    { id:1, title: "Instagram", icon: <BsInstagram size={iconSize} className="hover:text-instagram" color="" />, url: "https://instagram.com/creamy_poachegg?igshid=MzNlNGNkZWQ4Mg==" },
+    { id:2, title: "Facebook", icon: <BsFacebook size={iconSize} className="hover:text-facebook" />, url: "https://www.facebook.com/profile.php?id=100091338488777&mibextid=ZbWKwL" },
+    { id:3, title: "LinkedIn", icon: <ImLinkedin size={iconSize} className="hover:text-linkedin" />, url: "https://www.linkedin.com/in/shane-alexei-s-sager-a7a959281/" },
 ]
 
 export const AboutContent = {
