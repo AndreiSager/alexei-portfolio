@@ -18,7 +18,7 @@ interface Category {
     title: string;
     url: string;
 }
-const iconSize = 33;
+const iconSize = 25;
 
 
 export const SocialMediaLinks: Category[] = [
