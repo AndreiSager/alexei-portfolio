@@ -57,4 +57,3 @@ Step 1: Go to tinyPNG and compress all your images. Save them on the same direct
 Make sure to attribute any image you use for your gallery or read the content license for any image from a source you use.
 <br>1.) [Pixabay](https://pixabay.com/service/license-summary/)
 
-tulogggggggggggggggggggggggggg na nanana
