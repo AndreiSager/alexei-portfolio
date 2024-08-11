@@ -54,5 +54,9 @@ Step 1: Go to tinyPNG and compress all your images. Save them on the same direct
 **Note**: Shane make sure to add a note or comment when adding an image in the database.
 
 # Be Careful When Adding Images!
-Make sure to attribute any image you use for your gallery or read the content license for any image from a source you use.
+sure to attribute any image you use for your gallery or read the content license for any image from a source you use.
 <br>1.) [Pixabay](https://pixabay.com/service/license-summary/)
+
+# Shane Alexei
+
+shane
